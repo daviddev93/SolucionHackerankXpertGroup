@@ -36,6 +36,7 @@ public class SumaCuboControlador {
 	    respuesta = manejadorProcesarOperaciones.ejecutar(operaciones);
         System.out.println("other");
         System.out.println("one more");
+        System.out.println("last one");
         System.out.println("see");
 	    return ResponseEntity.status(HttpStatus.OK).body(respuesta);
 	} catch (Exception e) {
