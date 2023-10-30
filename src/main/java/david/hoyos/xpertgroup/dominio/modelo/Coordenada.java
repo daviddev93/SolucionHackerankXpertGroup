@@ -10,6 +10,7 @@ public class Coordenada {
     private Integer z;
 
     public Coordenada(String x, String y, String z) {
+        System.out.println("Changed something else in master");
 	ValidadorArgumento.validarFormatoNumerico(x, VALOR_COORDENADA_NO_VALIDO);
 	ValidadorArgumento.validarFormatoNumerico(y, VALOR_COORDENADA_NO_VALIDO);
 	ValidadorArgumento.validarFormatoNumerico(z, VALOR_COORDENADA_NO_VALIDO);
