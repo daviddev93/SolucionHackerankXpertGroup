@@ -30,7 +30,7 @@ public class SumaCuboControlador {
     @PostMapping
     @ApiOperation("ejecutar Operaciones")
     public ResponseEntity ejecutarOperaciones(@RequestBody List<EntradaOperacion> operaciones) {
-        System.out.println("changing for another one benefit");
+        System.out.println("Changing it for another two benefit");
 	List<Integer> respuesta = new ArrayList<>();
 	try {
 	    respuesta = manejadorProcesarOperaciones.ejecutar(operaciones);
